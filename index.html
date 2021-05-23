@@ -1,0 +1,163 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Introduction to React.js</title>
+
+    <!-- React CDN -->
+
+    <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+
+
+
+    <!-- React DOM -->
+
+    <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+
+
+
+    <!-- Babel Library -->
+
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+
+
+    <!-- Links -->
+    <link rel="stylesheet" href="index.css"/>
+
+
+</head>
+
+<body>
+
+    <!-- React js it is the javascript framework -->
+
+
+
+    <!-- 1. REACT CONTENT LOCATION -->
+
+    <div id="app">React has not rendered yet.</div>
+
+
+
+    <!-- 2. JAVASCRIPT CODE/SYNTAX -->
+
+    <script type="text/babel">
+//Global Variable
+//var myName = <h1> Narvaez, Rassel T.</h1>
+
+
+//Stateless Functional Components Code
+//var MyName = function() {
+//    return(
+//       <h1>Narvaez, Rassel T.</h1>
+//    );
+//}
+
+//Class Components
+class Logo extends React.Component {
+    render() {
+        return (
+            <div class="logo">
+            <h1>.NARVAEZ</h1>
+            </div>
+        )
+    }
+}
+class LoginTitle extends React.Component {
+    render() {
+        return (
+            <h1 class="loginTitle"> Sign In</h1>
+        );
+    }
+}
+class Username extends React.Component {
+    render() {
+        return (
+            <div class="name"><center>
+            <input type="text" class="username" name="username" placeholder="Email or phone number" /></center>
+            </div>
+        );
+    }
+}
+
+class Password extends React.Component {
+    render() {
+        return (
+            <div class="pass"><center>
+            <input type="password" class="password" name="password" placeholder="Password" /></center>
+            </div>
+        );
+    }
+}
+
+class Button extends React.Component {
+    render() {
+        return (
+            <div class="btn"><center>
+            <button type="button" class="button" >Sign In</button></center>
+            </div>
+        );
+    }
+}
+
+class CheckBox extends React.Component {
+    render() {
+        return (
+            <div class="Checkbox">
+            <input type="checkbox"/><label class="rmbr">Remember me</label> <a class="link1" href="url">Need help? </a> <br/>
+            <a href=""><img class="social-icon" src="fb.png"/>
+            <label class="lgnfb"> Login with Facebook</label></a>
+            <p class="Nn">New to Narvaez?<a class="link2" href="url"> Sign up now</a></p>
+            <p>This page is protected by Google reCAPTCHA to <br/> ensure you are not a bot. <a class="link3" href="url">Learn more.</a></p>
+            </div>
+        );
+    }
+}
+
+class Footer extends React.Component {
+    render() {
+        return (
+            <footer>
+            <p>Copyright © 2021.Narvaez Rassel | Student | BSIT - III.</p>
+            </footer>
+        );
+    }
+}
+
+var destination = document.getElementById('app')
+
+ReactDOM.render (
+	//WHAT
+    <div>
+    <Logo />
+    <div class="container">
+    <LoginTitle />
+    <Username />
+    <Password />
+    <Button/>
+    <CheckBox />
+    </div>
+    <div class="footer"><br />
+    <Footer />
+    </div>
+    </div>,
+	//WHERE
+	destination
+);
+
+
+</script>
+
+
+</body>
+
+</html>

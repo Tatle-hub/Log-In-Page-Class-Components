@@ -1,0 +1,128 @@
+body {
+	display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+    background-color: #1a1c20;
+}
+
+.logo {
+	position: static;
+	font-family: 'Anton', sans-serif;
+	font-size: 20px;
+	color: #e50914;
+}
+
+.container {
+	width: 450px;
+	height: 600px;
+	background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,0.4990371148459384) 100%, rgba(240,236,227,1) 100%);
+    border-radius: 5px;
+}
+
+.loginTitle {
+	color: #ffffff;
+	padding-top: 50px;
+	padding-left: 64px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.username {
+	height: 50px;
+	width: 290px;
+	border: none;
+	padding-left: 20px;
+	background-color: #333333;
+	border-radius: 5px;
+}
+.name {
+	padding: 10px;
+	align-items: center;
+}
+
+.password {
+	height: 50px;
+	width: 290px;
+	border: none;
+	padding-left: 20px;
+	background-color: #333333;
+	border-radius: 5px;
+}
+.pass {
+	padding: 10px;
+	align-items: center;
+}
+
+.button {
+	padding: 10px;
+	height: 50px;
+	width: 310px;
+	color: #ffffff;
+	cursor: pointer;
+	background-color: #e50914;
+	border: none;
+	border-radius: 5px;
+}
+.btn {
+	margin-top: 20px;
+	padding: 10px;
+	align: center;
+}
+
+.Checkbox {
+	padding-left: 65px;
+}
+.rmbr{
+	color: #d1d9d9;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+}
+.link1 {
+  padding-left: 138px;
+  margin-top: -20px;
+  color: black;
+  text-decoration: none;
+  color: #d1d9d9;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.link1:hover {
+	text-decoration: underline;
+}
+.link2 {
+  	color: #ffffff;
+  	text-decoration: none;
+  	font-size: 18px;
+}
+.link2:hover {
+	text-decoration: underline;
+}
+.link3 {
+	text-decoration: none;
+}
+.link3:hover {
+	text-decoration: underline;
+}
+.social-icon {
+	height: 20px;
+	width: 20px;
+	margin-top: 50px;
+	margin-bottom: -5px;
+}
+.Nn {
+	font-size: 17px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.lgnfb, p {
+	color: #3f3f44;
+	font-size: 13px;
+	font-family: Arial, Helvetica, sans-serif;
+	cursor: pointer;
+}
+.lgnfb {
+	text-decoration: underline black;
+	padding-left: 5px;
+}
+footer {
+text-align: center;
+}
