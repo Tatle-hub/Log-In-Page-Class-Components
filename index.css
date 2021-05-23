@@ -121,6 +121,7 @@ body {
 .lgnfb {
 	text-decoration: underline black;
 	padding-left: 5px;
+	cursor: pointer;
 }
 footer {
 text-align: center;
